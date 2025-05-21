@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.first-set{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   
+}
+
+.container{
+    display: flex;
+    gap: 5px;
+
+}
+
+
+img{
+    border-radius: 5px;
+    border: none;
+    opacity: 0.5;
+  
+}
+
+.images{
+    background-color: rgba(35, 35, 35, 0.749);
+    padding-left: 23px;
+    padding-top: 20px;
+    
+}
+
+.second-set{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+
+.third-set{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+
+img:hover{
+    opacity: 20;
+}

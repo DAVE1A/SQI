@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.boxx{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:  ease-in-out;
+    animation-name: odulex;
+}
+
+@keyframes odulex {
+    0%{
+        background-color: red;
+        transform: translate(0px, 0px);
+
+    }
+
+    25%{
+        background-color: gold;
+        transform: translate(200px,  0px);
+    }
+
+    50%{
+        background-color: red;
+        transform: translate(200px, 200px);
+    }
+
+    75%{
+        background-color: gold;
+        transform: translate(0px, 200px);
+
+    }
+
+    100%{
+        background-color: red;
+        transform: translate(0px, 0px);
+    }
+
+    
+
+}

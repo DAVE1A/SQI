@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ p{
+    font-size: 14px;
+    color: silver;
+  
+ }
+
+ body{
+    background-color: rgb(20, 20, 20);
+ }
+
+ a{
+    text-decoration: none;
+    color: rgba(119, 119, 250, 0.945);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+ }
+
+ 
+.wiki{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+
+.title{
+    margin-left: 44%;
+    margin-top: 50px;
+}
+
+.lang2{
+    position: absolute;
+    top: 18%;
+    left: 37%;
+}
+
+.lang2 a{
+ position: absolute;
+ left: 25px;
+}
+
+.lang3{
+    position: absolute;
+    top: 18%;
+    right: 37%;
+}
+
+.lang3 a{
+    position: absolute;
+    right: 25px;
+}
+
+.lang4{
+    position: absolute;
+    left: 33%;
+    top: 26%;
+}
+
+.lang4 a{
+    position: absolute;
+    left: 45px;
+}
+
+.lang5{
+    position: absolute;
+    right: 33%;
+    top: 26%;
+}
+
+.lang5 a{
+    position: absolute;
+    right: 25px;
+}
+
+.lang6{
+    position: absolute;
+    top: 35%;
+    left: 29%;
+}
+
+.lang6 a{
+    position: absolute;
+    left: 25px;
+}
+
+.lang7{
+    position: absolute;
+    top: 35%;
+    right: 29%;
+}
+
+.lang7 a{
+    position: absolute;
+    right: 40px;
+}
+
+.lang8{
+    position: absolute;
+    top: 43%;
+    left: 33%;
+}
+
+.lang8 a{
+    position: absolute;
+    left: 25px;
+}
+
+.lang9{
+    position: absolute;
+    top: 43%;
+    right: 31.5%;
+}
+
+.lang9 a{
+    position: absolute;
+    right: 25px;
+}
+
+.lang10{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+}
+
+.lang10 a{
+ position: absolute;
+ left: 25px;
+}
+
+.langomo{
+    position: absolute;
+    top: 50%;
+    right: 37%;
+}
+
+.langomo a{
+    position: absolute;
+    right: 25px;
+}
+
+.box{
+    position: absolute;
+    top: 60%;
+    left: 37%;
+}
+
+input{
+    height: 40px;
+    width: 400px;
+    border: 2px solid rgb(67, 67, 207);
+    background-color: transparent;
+}
+
+.en{
+    height: 40px;
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 56.5%;
+}
+
+.en button{
+    height: 40px;
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.searching{
+    height: 40px;
+    width: 50px;
+    border: 1px solid rgb(67, 67, 207);
+    background-color: transparent;
+    position: absolute;
+    top: 60%;
+    left: 59.9%;
+
+}
+
+.searching button{
+    height: 40px;
+    width: 50px;
+    border: 1px solid rgb(67, 67, 207);
+    background-color: rgba(66, 66, 229, 0.812);
+    color: white;
+   
+}
+
+

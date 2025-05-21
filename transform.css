@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.trans{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: translateX();
+    transform: translateY();
+    transform: rotate();
+    transform: skew X or Y();
+}
+
+
+.trans:hover{
+    transition-property: all;
+    background-color: blue;
+    width: 250px;
+    height: 300px;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    
+}
